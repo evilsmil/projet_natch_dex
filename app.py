@@ -1,4 +1,5 @@
 import streamlit as st
+from PIL import Image
 
 
 def main():
@@ -7,7 +8,12 @@ def main():
     page_title="Hello",
     page_icon="👋",)
     
-    st.title(" application multipages")
+    st.title(" NATCH-DEX ")
+
+    
+
+    im = Image.open("img.jpg")
+    st.write(im)
 
 
 
