@@ -197,7 +197,6 @@ def main():
 
 
 
-
     ########################## touche pour le transformateur 5 ######################
 
     # créer une condition sur les boutton
@@ -213,7 +212,6 @@ def main():
         df = pd.DataFrame(data, columns=columns)
 
 
-    
         # Insérer les données dans la base de données
         if st.button("Enregistrer")==True:
             sql = "INSERT INTO transformateur_5(Date, O2, CO2, H2, CH4, C2H6, C2H4, C2H2, \
@@ -248,7 +246,6 @@ def main():
         # Convertir les données en DataFrame Pandas
         columns = [column[0] for column in cursor.description]
         df = pd.DataFrame(data, columns=columns)
-
 
     
         # Insérer les données dans la base de données
@@ -285,7 +282,6 @@ def main():
         columns = [column[0] for column in cursor.description]
         df = pd.DataFrame(data, columns=columns)
 
-
     
         # Insérer les données dans la base de données
         if st.button("Enregistrer")==True:
@@ -321,7 +317,6 @@ def main():
         # Convertir les données en DataFrame Pandas
         columns = [column[0] for column in cursor.description]
         df = pd.DataFrame(data, columns=columns)
-
 
     
         # Insérer les données dans la base de données

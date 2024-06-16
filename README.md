@@ -12,6 +12,7 @@ Il s'agit d'une interface graphique connectée à une base de données qui perme
 3. Ouvrez l'invite de commande et placez-vous dans le repertoir du fichier requirements.txt
 4. Executez la commande suivante :  
         '''pip install -r requirements.txt'''
-5. Ouvrir le dossier contenant le code dans vscode
-6. Une fois dans vscode, ouvrez le terminale et saisissez la commande suivante : 
+5. Importer la base de données natch_dex dans le serveur de base de base de données phpMyAdmin.
+6. Ouvrir le dossier contenant le code dans vscode
+7. Une fois dans vscode, ouvrez le terminale et saisissez la commande suivante : 
         '''streamlit run app.py'''

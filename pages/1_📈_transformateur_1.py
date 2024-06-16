@@ -2,7 +2,6 @@ import streamlit as st
 import plotly.express as px
 import mysql.connector as mc
 import pandas as pd
-from datetime import date
 
 # definition de la fonction principale
 def main():

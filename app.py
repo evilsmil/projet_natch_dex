@@ -16,9 +16,5 @@ def main():
     st.write(im)
 
 
-
-
-
-
 if __name__=="__main__":
     main()
